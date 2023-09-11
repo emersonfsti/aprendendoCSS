@@ -1,28 +1,8 @@
-h1 {
-    /* Estilo para todos os títulos h1 */
+.lista-magica {
+    display: inline-block;
 }
 
-
-.botao-magico {
-    /* Estilo para elementos com a classe "botao-magico" */
+#invisivel {
+    visibility: hidden;
 }
 
-
-#cabecalho {
-    /* Estilo para o elemento com o ID "cabecalho" */
-}
-
-h1 {
-    color: #800080; /* Define a cor do texto como roxo */
-    background-color: #f7f7f7; /* Define a cor de fundo como cinza claro */
-}
-
-
-p {
-    font-family: 'Arial', sans-serif; /* Define a família de fontes para Arial ou uma fonte genérica */
-}
-
-.caixa-magica {
-    margin: 10px; /* Define margens de 10 pixels em todos os lados */
-    padding: 20px; /* Define preenchimento interno de 20 pixels */
-}
