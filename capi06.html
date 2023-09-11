@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mágica CSS</title>
+    <style>
+        /* Estilizando o cabeçalho */
+        header {
+            background-color: #800080;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        /* Caixa com efeito de transição */
+        .caixa {
+            background-color: #ece0ec;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #800080;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Efeito de escala e sombra ao passar o mouse */
+        .caixa:hover {
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            background-color: #ff00ff;
+        }
+
+        /* Elemento com animação de giro */
+        .elemento {
+            width: 100px;
+            height: 100px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            font-size: 18px;
+            margin: 20px;
+            animation: girar 3s linear infinite;
+        }
+
+        @keyframes girar {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Botão com efeito de pulsar */
+        .botao {
+            background-color: #800080;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            animation: pulsar 1s ease infinite;
+        }
+
+        @keyframes pulsar {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho Estilizado -->
+    <header>
+        Bem-Vindo ao Reino Mágico
+    </header>
+
+    <!-- Conteúdo com efeitos e animações -->
+    <div class="caixa">
+        <h2>Caixa Mágica</h2>
+        <p>Passe o mouse sobre mim para ver a mágica acontecer!</p>
+    </div>
+
+    <!-- Elemento com animação de giro -->
+    <div class="elemento">Gire!</div>
+
+    <!-- Botão com efeito de pulsar -->
+    <button class="botao">Clique em Mim</button>
+
+    <!-- Rodapé Estilizado -->
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
+        &copy; 2023 Reino Mágico - Todos os direitos reservados
+    </footer>
+</body>
+
+</html>

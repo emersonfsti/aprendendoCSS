@@ -1,6 +1,11 @@
-/* Exemplo de media query para tornar um design responsivo */
-@media (max-width: 768px) {
-    .conteudo {
-        font-size: 16px; /* Ajuste o tamanho do texto para telas menores */
-    }
+/* Exemplo de uso de pseudo-classes */
+.botao:hover {
+    background-color: #ff00ff; /* Altera a cor ao passar o mouse */
 }
+
+/* Exemplo de uso de pseudo-elementos */
+.paragrafo::before {
+    content: "✨ "; /* Adiciona um emoji antes do conteúdo */
+}
+
+
