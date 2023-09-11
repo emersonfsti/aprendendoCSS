@@ -1,11 +1,66 @@
-/* Exemplo de uso de pseudo-classes */
-.botao:hover {
-    background-color: #ff00ff; /* Altera a cor ao passar o mouse */
+/* Importação de fonte externa */
+@font-face {
+    font-family: 'FonteMagica';
+    src: url('fontemagica.woff2') format('woff2');
 }
 
-/* Exemplo de uso de pseudo-elementos */
-.paragrafo::before {
-    content: "✨ "; /* Adiciona um emoji antes do conteúdo */
+/* Variáveis CSS */
+:root {
+    --cor-destaque: #800080;
+    --tamanho-fonte: 16px;
 }
 
+/* Estilizando o cabeçalho */
+.cabecalho {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
+.cabecalho__titulo {
+    font-family: 'FonteMagica', sans-serif;
+    font-size: 36px;
+}
+
+/* Estilizando o conteúdo */
+.conteudo {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid var(--cor-destaque);
+    box-sizing: border-box;
+}
+
+.conteudo__subtitulo {
+    font-size: 24px;
+    color: var(--cor-destaque);
+}
+
+.conteudo__lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.conteudo__item {
+    margin: 5px 0;
+}
+
+/* Estilizando as varinhas */
+.conteudo__varinha img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilizando o rodapé */
+.rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape__texto {
+    font-size: 14px;
+}
