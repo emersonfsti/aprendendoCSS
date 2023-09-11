@@ -1,44 +1,33 @@
 h1 {
-    color: #800080; /* Define a cor do título h1 */
-    font-size: 24px; /* Define o tamanho da fonte */
+    /* Seus estilos mágicos aqui */
 }
 
 
-.container {
-    width: 80%; /* Define a largura do contêiner */
-    margin: 0 auto; /* Centraliza horizontalmente */
+<p class="texto-magico">Este é um parágrafo mágico.</p>
+
+.texto-magico {
+    /* Seus estilos mágicos aqui */
 }
 
-.botao-magico {
-    background-color: #800080;
-    color: #fff;
-    transition: background-color 0.3s ease; /* Transição suave */
-}
+<div id="cabecalho">Este é o cabeçalho mágico.</div>
 
-.botao-magico:hover {
-    background-color: #400040; /* Altera a cor ao passar o mouse */
+#cabecalho {
+    /* Seus estilos mágicos aqui */
 }
-
 
 h1 {
-    /* Estilo para todos os títulos h1 */
+    font-size: 36px;
+    color: #800080; /* Roxo */
 }
 
-.botao-magico {
-    /* Estilo para elementos com a classe "botao-magico" */
+.texto-magico {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #008080; /* Verde-azulado */
 }
 
 #cabecalho {
-    /* Estilo para o elemento com o ID "cabecalho" */
-}
-
-
-h1 {
-    color: #800080; /* Define a cor do texto para roxo */
-    font-size: 24px; /* Define o tamanho da fonte como 24 pixels */
-}
-
-h1 {
-    color: #800080; /* Valor: roxo em formato hexadecimal */
-    background-color: purple ; /* Valor: roxo em formato por nome da cor */
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Branco */
+    padding: 10px;
 }
