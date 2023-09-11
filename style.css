@@ -1,33 +1,28 @@
 h1 {
-    /* Seus estilos mágicos aqui */
+    /* Estilo para todos os títulos h1 */
 }
 
 
-<p class="texto-magico">Este é um parágrafo mágico.</p>
-
-.texto-magico {
-    /* Seus estilos mágicos aqui */
+.botao-magico {
+    /* Estilo para elementos com a classe "botao-magico" */
 }
 
-<div id="cabecalho">Este é o cabeçalho mágico.</div>
 
 #cabecalho {
-    /* Seus estilos mágicos aqui */
+    /* Estilo para o elemento com o ID "cabecalho" */
 }
 
 h1 {
-    font-size: 36px;
-    color: #800080; /* Roxo */
+    color: #800080; /* Define a cor do texto como roxo */
+    background-color: #f7f7f7; /* Define a cor de fundo como cinza claro */
 }
 
-.texto-magico {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    color: #008080; /* Verde-azulado */
+
+p {
+    font-family: 'Arial', sans-serif; /* Define a família de fontes para Arial ou uma fonte genérica */
 }
 
-#cabecalho {
-    background-color: #333; /* Cinza escuro */
-    color: #fff; /* Branco */
-    padding: 10px;
+.caixa-magica {
+    margin: 10px; /* Define margens de 10 pixels em todos os lados */
+    padding: 20px; /* Define preenchimento interno de 20 pixels */
 }

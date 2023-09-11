@@ -1,35 +1,149 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Feitiços Básicos de Estilo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mago Webmaster</title>
     <style>
-        /* Estilizando um elemento de tag */
-        h1 {
-            color: #800080; /* Define a cor do título h1 */
-            font-size: 36px; /* Define o tamanho da fonte */
+        /* Estilo global da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
         }
 
-        /* Estilizando elementos de classe */
-        .destaque {
-            background-color: #ffc107; /* Define a cor de fundo */
-            font-weight: bold; /* Torna o texto em negrito */
-            padding: 10px; /* Adiciona preenchimento interno */
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #310931;
+            text-align: center;
+            padding: 20px;
         }
 
-        /* Estilizando um elemento por ID */
-        #paragrafo-azul {
-            color: #007bff; /* Define a cor do texto */
+        header h1 {
+            font-size: 36px;
+        }
+
+        /* Estilo para imagem */
+        .magoimg {
+            width: 200px;
+            border-radius: 30px;
+        }
+
+        /* Estilo da seção de apresentação */
+        .apresentacao {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .apresentacao img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilo da lista de habilidades mágicas */
+        .habilidades {
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+        }
+
+        .habilidades h2 {
+            color: #f5c3f5;
+        }
+
+        .habilidades ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .habilidades li {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        /* Estilo do formulário de contato */
+        form {
+            text-align: center;
+            padding: 20px;
+        }
+
+        form label {
+            display: block;
+            font-size: 20px;
+            color: #e0aae0;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #800080;
+        }
+
+        form input[type="submit"] {
+            background-color: #800080;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
-
 <body>
-    <h1>Título Principal</h1>
-    <p>Este é um parágrafo normal.</p>
-    <p class="destaque">Este parágrafo possui uma classe de destaque.</p>
-    <p id="paragrafo-azul">Este parágrafo possui um ID e tem texto azul.</p>
-</body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Mago Webmaster</h1>
+    </header>
 
+    <!-- Seção de Apresentação -->
+    <div class="apresentacao">
+        <img class="magoimg" src="./img/mago.png" alt="Mago Webmaster">
+        <p>Olá, jovem aprendiz! Eu sou o Mago Webmaster, pronto para compartilhar meus conhecimentos mágicos da web com você.</p>
+    </div>
+
+    <!-- Lista de Habilidades Mágicas -->
+    <div class="habilidades">
+        <h2>Minhas Habilidades Mágicas</h2>
+        <ul>
+            <li>Feitiços de HTML</li>
+            <li>Magias de CSS</li>
+            <li>Encantamentos de JavaScript</li>
+        </ul>
+    </div>
+
+    <!-- Formulário de Contato -->
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2023 Mago Webmaster - Todos os direitos reservados</p>
+    </footer>
+</body>
 </html>
