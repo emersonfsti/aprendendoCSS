@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts Mágicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #800080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        .main-content {
+            flex: 2;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .article {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .footer {
+            background-color: #800080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Layouts Mágicos</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="article">
+                <h2>Artigo 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum enim eget purus feugiat, sit amet tincidunt nulla interdum.</p>
+            </div>
+            <div class="article">
+                <h2>Artigo 2</h2>
+                <p>Phasellus vel scelerisque elit. Aliquam erat volutpat. Integer lacinia, libero nec bibendum bibendum, ligula felis gravida quam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2023 Layouts Mágicos - Todos os direitos reservados
+    </div>
+</body>
+</html>
