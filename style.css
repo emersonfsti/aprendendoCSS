@@ -1,0 +1,44 @@
+h1 {
+    color: #800080; /* Define a cor do título h1 */
+    font-size: 24px; /* Define o tamanho da fonte */
+}
+
+
+.container {
+    width: 80%; /* Define a largura do contêiner */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.botao-magico {
+    background-color: #800080;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.botao-magico:hover {
+    background-color: #400040; /* Altera a cor ao passar o mouse */
+}
+
+
+h1 {
+    /* Estilo para todos os títulos h1 */
+}
+
+.botao-magico {
+    /* Estilo para elementos com a classe "botao-magico" */
+}
+
+#cabecalho {
+    /* Estilo para o elemento com o ID "cabecalho" */
+}
+
+
+h1 {
+    color: #800080; /* Define a cor do texto para roxo */
+    font-size: 24px; /* Define o tamanho da fonte como 24 pixels */
+}
+
+h1 {
+    color: #800080; /* Valor: roxo em formato hexadecimal */
+    background-color: purple ; /* Valor: roxo em formato por nome da cor */
+}
