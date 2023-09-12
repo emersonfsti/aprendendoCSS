@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Magia Responsável</title>
+    <style>
+        /* Estilizando o cabeçalho */
+        header {
+            background-color: #800080;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilizando o botão de destaque */
+        .botao-acessivel {
+            background-color: #008080;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Adicionando estilos de foco para acessibilidade */
+        .botao-acessivel:focus {
+            outline: 2px solid #fff;
+        }
+
+        /* Melhorando acessibilidade com texto alternativo */
+        .botao-acessivel img {
+            display: none;
+        }
+
+        /* Estilos para dispositivos menores */
+        @media (max-width: 600px) {
+            .botao-acessivel {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho Estilizado -->
+    <header>
+        <h1>Magia Responsável</h1>
+    </header>
+
+    <!-- Conteúdo Encantado -->
+    <div style="text-align: center;">
+        <h2>Feitiços Poderosos</h2>
+        <p>Aqui, você encontrará uma lista de feitiços incríveis:</p>
+        <ul>
+            <li>Invocação Elemental</li>
+            <li>Elixir de Cura</li>
+        </ul>
+    </div>
+
+    <!-- Botão de Destaque com Acessibilidade -->
+    <button class="botao-acessivel" aria-label="Botão de Destaque">
+        <span>Destacar</span>
+        <img src="./img/estrela.png" alt="Estrela" width="20">
+    </button>
+
+    <!-- Rodapé Estilizado -->
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
+        &copy; 2023 Magia Responsável - Todos os direitos reservados
+    </footer>
+</body>
+
+</html>
