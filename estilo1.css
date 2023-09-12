@@ -1,0 +1,13 @@
+/* Exemplo de uso de ferramentas de depuração: realce de elementos */
+.elemento-problema {
+    border: 2px solid red; /* Adicione uma borda vermelha para identificar problemas */
+}
+
+/* Exemplo de otimização: carregamento de fontes assíncronas */
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('minhafonte.woff2') format('woff2');
+    font-display: swap; /* Carregue a fonte de forma assíncrona para melhor desempenho */
+}
+
+

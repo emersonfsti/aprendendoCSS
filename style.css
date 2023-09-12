@@ -47,10 +47,12 @@
 
 /* Estilizando as varinhas */
 .conteudo__varinha img {
+    display: flex;
+    justify-content: space-between; 
     width: 200px;
     height: auto;
-    display: block;
     margin: 10px auto;
+
 }
 
 /* Estilizando o rodapé */
